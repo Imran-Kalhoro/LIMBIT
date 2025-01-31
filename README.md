@@ -16,7 +16,7 @@ The LIMBIT system is compromised of 4 subgroups:
 # Bluetooth and Radiofrequency
 ![BLE_schematic](https://github.com/user-attachments/assets/f82e4a0a-0fa5-426c-b5dd-644424a84be8)
 
-> **Note:** The radiofrequency circuitry is configured in External Differential mode with internal bias. Also, an internal DC-DC Regulator is used for the supply voltage configuration on the main chip.
+**Note:** The radiofrequency circuitry is configured in External Differential mode with internal bias. Also, an internal DC-DC Regulator is used for the supply voltage configuration on the main chip.
 
 # Memory
 ![NAND_Schematic](https://github.com/user-attachments/assets/bbf23407-72cd-4ef7-acec-4504c0d9183a)
@@ -24,12 +24,12 @@ The LIMBIT system is compromised of 4 subgroups:
 # Inertial Measurement Unit (IMU)
 ![IMU_Schematic](https://github.com/user-attachments/assets/eb53683d-9691-4344-9c05-6c19840add32)
 
-> **Note:** Both interrupt output channels are used for FIFO buffer full and inactivity trigger inputs to the main microcontroller chip. 
+**Note:** Both interrupt output channels are used for FIFO buffer full and inactivity trigger inputs to the main microcontroller chip. 
 
 # Battery and Power Management
 ![Charger_Schematic](https://github.com/user-attachments/assets/2a38c022-deb6-4be4-88a0-84085c8b599f)
 
-> **Note:** The microUSB connector serves as dual purpose of charging the battery and programming the microcontroller chip.
+**Note:** The microUSB connector serves as dual purpose of charging the battery and programming the microcontroller chip.
 
 # PCB Layout and Layer Stack Information
 
