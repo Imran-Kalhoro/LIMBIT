@@ -16,14 +16,20 @@ The LIMBIT system is compromised of 4 subgroups:
 # Bluetooth and Radiofrequency
 ![BLE_schematic](https://github.com/user-attachments/assets/f82e4a0a-0fa5-426c-b5dd-644424a84be8)
 
+> **Note:** The radiofrequency circuitry is configured in External Differential mode with internal bias. Also, an internal DC-DC Regulator is used for the supply voltage configuration on the main chip.
+
 # Memory
 ![NAND_Schematic](https://github.com/user-attachments/assets/bbf23407-72cd-4ef7-acec-4504c0d9183a)
 
 # Inertial Measurement Unit (IMU)
 ![IMU_Schematic](https://github.com/user-attachments/assets/eb53683d-9691-4344-9c05-6c19840add32)
 
+> **Note:** Both interrupt output channels are used for FIFO buffer full and inactivity trigger inputs to the main microcontroller chip. 
+
 # Battery and Power Management
 ![Charger_Schematic](https://github.com/user-attachments/assets/2a38c022-deb6-4be4-88a0-84085c8b599f)
+
+> **Note:** The microUSB connector serves as dual purpose of charging the battery and programming the microcontroller chip.
 
 # PCB Layout and Layer Stack Information
 
@@ -34,3 +40,5 @@ The LIMBIT system is compromised of 4 subgroups:
 - Layer Stack
 
 <img width="289" alt="layer_stack (1)" src="https://github.com/user-attachments/assets/82c1838b-588c-4e04-a2d9-d5d9dc9f16ae" />
+
+The device uses a four-layer PCB layer stack with 50-ohm impedance on the antenna transmission line.
