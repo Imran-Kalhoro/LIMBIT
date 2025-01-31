@@ -41,4 +41,4 @@ The LIMBIT system is compromised of 4 subgroups:
 
 <img width="289" alt="layer_stack (1)" src="https://github.com/user-attachments/assets/82c1838b-588c-4e04-a2d9-d5d9dc9f16ae" />
 
-The device uses a four-layer PCB layer stack with 50-ohm impedance on the antenna transmission line.
+The device uses a four-layer polyimide stack with 50-ohm impedance on the radiofrequency data lines.
